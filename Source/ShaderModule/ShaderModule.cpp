@@ -5,11 +5,11 @@
 
 void ShaderModule::StartupModule()
 {
-#if (ENGINE_MINOR_VERSION >= 21)
     FString ShaderDirectory = FPaths::Combine(FPaths::ProjectDir(), TEXT("Shader"));
-    if(!AllShaderSourceDirectoryMappings().Contains("/Project"))
-        AddShaderSourceDirectoryMapping("/Project", ShaderDirectory);
-#endif
+    UE_LOG(LogTemp, Display, TEXT("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
+    AddShaderSourceDirectoryMapping(TEXT("/Project"), ShaderDirectory);
+//    if(!AllShaderSourceDirectoryMappings().Contains("/Project"))
+//        AddShaderSourceDirectoryMapping("/Project", ShaderDirectory);
 }
 
 void ShaderModule::ShutdownModule()
