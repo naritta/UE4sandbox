@@ -1,0 +1,7 @@
+{
+	"BuildId": "14830424",
+	"Modules": 
+	{
+		"Foo": "UE4Editor-Foo.dylib"
+	}
+}
