@@ -31,6 +31,10 @@ public class Foo : ModuleRules
 				"RenderCore",
 		        //haderCore",
 		        "RHI",
+                "CoreUObject",
+                "Engine",
+                "Renderer",
+                "Projects",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

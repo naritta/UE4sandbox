@@ -1,5 +1,10 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
+#include "CoreMinimal.h"
+#include "Modules/ModuleManager.h"
+#include "Interfaces/IPluginManager.h"
+#include "Misc/Paths.h"
+#include "ShaderCore.h"
 #include "Foo.h"
 
 #define LOCTEXT_NAMESPACE "FFooModule"
@@ -7,6 +12,8 @@
 void FFooModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+    FString PluginShaderDir = FPaths::Combine(IPluginManager::Get().FindPlugin(TEXT("Foo"))->GetBaseDir(), TEXT("Shaders"));
+    AddShaderSourceDirectoryMapping(TEXT("/Plugin/Foo"), PluginShaderDir);
 }
 
 void FFooModule::ShutdownModule()

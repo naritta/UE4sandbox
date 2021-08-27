@@ -2603,6 +2603,12 @@
   /Users/narittan/Documents/Unreal\ Projects/UE4sandbox4/Plugins/Foo/Intermediate/Build/Mac/x86_64/UE4Editor/Development/Foo/Module.Foo.cpp \
   /Users/narittan/Documents/Unreal\ Projects/UE4sandbox4/Plugins/Foo/Intermediate/Build/Mac/x86_64/UE4Editor/Development/Foo/Definitions.Foo.h \
   /Users/narittan/Documents/Unreal\ Projects/UE4sandbox4/Plugins/Foo/Source/Foo/Private/Foo.cpp \
+  /Users/narittan/UE_4.26/Engine/Source/Runtime/Projects/Public/Interfaces/IPluginManager.h \
+  /Users/narittan/UE_4.26/Engine/Source/Runtime/Projects/Public/PluginDescriptor.h \
+  /Users/narittan/UE_4.26/Engine/Source/Runtime/Projects/Public/ModuleDescriptor.h \
+  /Users/narittan/UE_4.26/Engine/Source/Runtime/Projects/Public/CustomBuildSteps.h \
+  /Users/narittan/UE_4.26/Engine/Source/Runtime/Projects/Public/LocalizationDescriptor.h \
+  /Users/narittan/UE_4.26/Engine/Source/Runtime/Projects/Public/PluginReferenceDescriptor.h \
   /Users/narittan/Documents/Unreal\ Projects/UE4sandbox4/Plugins/Foo/Source/Foo/Public/Foo.h \
   /Users/narittan/Documents/Unreal\ Projects/UE4sandbox4/Plugins/Foo/Source/Foo/Private/LensDistortionBlueprintLibrary.cpp \
   /Users/narittan/Documents/Unreal\ Projects/UE4sandbox4/Plugins/Foo/Source/Foo/Classes/LensDistortionBlueprintLibrary.h \
